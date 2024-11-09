@@ -1,0 +1,10 @@
+.h2 {
+  @media (max-width: 800px) {
+    text-align: center;
+  }
+}
+
+.paragraph {
+  font-family: var(--font-family);
+  white-space: pre-wrap;
+}
