@@ -14,6 +14,10 @@ export const LanguageSelector: FC = () => {
       value: "en",
     },
     {
+      label: "🇷🇸 Srpski",
+      value: "rs",
+    },
+    {
       label: "🇷🇺 Русский",
       value: "ru",
     },

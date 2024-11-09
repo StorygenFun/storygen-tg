@@ -1,10 +1,10 @@
-import type { InitOptions } from 'i18next'
+import type { InitOptions } from "i18next";
 
-export const FALLBACK_LOCALE = 'en'
-export const supportedLocales = ['en', 'ru'] as const
-export type Locales = (typeof supportedLocales)[number]
+export const FALLBACK_LOCALE = "en";
+export const supportedLocales = ["en", "ru", "rs"] as const;
+export type Locales = (typeof supportedLocales)[number];
 
-export const LANGUAGE_COOKIE = 'preferred_language'
+export const LANGUAGE_COOKIE = "preferred_language";
 
 export function getOptions(lang = FALLBACK_LOCALE): InitOptions {
   return {
@@ -12,5 +12,5 @@ export function getOptions(lang = FALLBACK_LOCALE): InitOptions {
     supportedLngs: supportedLocales,
     fallbackLng: FALLBACK_LOCALE,
     lng: lang,
-  }
+  };
 }

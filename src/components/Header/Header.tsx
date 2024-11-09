@@ -13,8 +13,8 @@ export const Header: FC<PropsWithChildren> = async () => {
       <Container className={styles.wrapper}>
         <Link href="/" className={styles.logo}>
           <svg
-            width="1109"
-            height="1115"
+            width="24"
+            height="24"
             viewBox="0 0 1109 1115"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
