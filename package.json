@@ -9,16 +9,38 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.5.1",
+    "@ant-design/nextjs-registry": "^1.0.1",
+    "@next/env": "^15.0.3",
+    "antd": "^5.21.6",
+    "axios": "^1.7.7",
+    "classnames": "^2.5.1",
+    "dexie": "^4.0.9",
+    "form-data": "^4.0.1",
+    "i18next": "^23.16.5",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "i18next-resources-to-backend": "^1.2.1",
+    "lottie-react": "^2.4.0",
+    "next": "14.2.17",
+    "next-i18next": "^15.3.1",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.17"
+    "react-i18next": "^15.1.1",
+    "react-nice-avatar": "^1.5.0",
+    "react-use": "^17.5.1",
+    "uuid": "^11.0.2",
+    "zustand": "^5.0.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@svgr/plugin-svgo": "^8.1.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/uuid": "^10.0.0",
     "eslint": "^8",
-    "eslint-config-next": "14.2.17"
+    "eslint-config-next": "14.2.17",
+    "sass": "^1.80.6",
+    "typescript": "^5"
   }
 }
