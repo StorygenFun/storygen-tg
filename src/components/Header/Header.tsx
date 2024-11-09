@@ -50,8 +50,8 @@ export const Header: FC<PropsWithChildren> = async () => {
 
         <ul className={styles.menuList}>
           <li className={styles.menuItem}>
-            <Link href="/projects" className={styles.menuLink}>
-              {t("header.projects")}
+            <Link href="/stories" className={styles.menuLink}>
+              {t("header.stories")}
             </Link>
           </li>
         </ul>

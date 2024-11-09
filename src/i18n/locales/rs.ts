@@ -4,7 +4,7 @@ const translation = {
     cta: "Počnite da pišete",
   },
   header: {
-    projects: "Priče",
+    stories: "Priče",
   },
 };
 

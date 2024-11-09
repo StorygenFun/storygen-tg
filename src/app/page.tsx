@@ -16,7 +16,7 @@ export default async function Home() {
         title={t("HomePage.title")}
         imageUrl="/images/storygen.fun-hero.webp"
         ctaText={t("HomePage.cta")}
-        ctaUrl="/projects"
+        ctaUrl="/stories"
       />
     </>
   );
